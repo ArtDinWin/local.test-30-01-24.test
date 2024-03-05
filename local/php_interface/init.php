@@ -6,6 +6,7 @@ if(file_exists($_SERVER["DOCUMENT_ROOT"]."/local/php_interface/include/functions
 }
 
 // заплатка пока нет лицензии
+// снятие ограничение Demo
 global $SiteExpireDate;
 if (DEMO && ($SiteExpireDate < time())) {
     $SiteExpireDate = time() * 1.1;

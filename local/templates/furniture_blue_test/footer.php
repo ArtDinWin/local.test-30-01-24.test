@@ -1,7 +1,12 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 IncludeTemplateLangFile(__FILE__);
 
+// вроде не влияют просто коментарии
+// use Citrus\Developer\Template\HeaderContent;
+// HeaderContent::workarea();
 
+$subTemplatePath = __DIR__ . "/" . 'template' . "/";
+require $subTemplatePath . "header.php";
 ?>
 </div>
 </div>

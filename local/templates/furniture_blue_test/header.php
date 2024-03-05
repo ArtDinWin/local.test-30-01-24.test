@@ -104,10 +104,17 @@ $APPLICATION->IncludeFile(
         <div id="content">
 
             <div id="sidebar">
-                <? 
-                // без echo своя отложенная функция
+                <?
+                  // без echo своя отложенная функция
                 myShowTitle();
                 ?>
+                <?#set in ./template/header.php ?>
+
+                123
+                <?$APPLICATION->ShowViewContent("header");?>
+                234
+
+
 
 
             </div>
