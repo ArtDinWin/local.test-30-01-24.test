@@ -104,7 +104,10 @@ $APPLICATION->IncludeFile(
         <div id="content">
 
             <div id="sidebar">
-
+                <? 
+                // без echo своя отложенная функция
+                myShowTitle();
+                ?>
 
 
             </div>
