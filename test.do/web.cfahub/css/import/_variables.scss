@@ -1,0 +1,21 @@
+:root {
+    --grid-layout: 1440px;
+    // grid-layout - grid-padding*2 = grid-layout-inner
+    --grid-layout-inner: 1250px; 
+    --grid-padding: 24px;
+    --main-bg: white;
+    --main-font: "PT Root UI", Arial, san-serif;
+  }
+
+/* add fonts */
+@font-face {
+  font-family: "PT Root UI";
+  font-weight: 400;
+  src: url(./../fonts/pt-root-ui_regular.ttf);
+  src: url(./../fonts/pt-root-ui_regular.eot?#iefix) format("embedded-opentype"),
+    url(./../fonts/pt-root-ui_regular.otf) format("otf"),
+    url(./../fonts/pt-root-ui_regular.svg#pt-root-ui_regular) format("svg"),
+    url(./../fonts/pt-root-ui_regular.ttf) format("truetype"),
+    url(./../fonts/pt-root-ui_regular.woff) format("woff"),
+    url(./../fonts/pt-root-ui_regular.woff2) format("woff2");
+}
