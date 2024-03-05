@@ -104,10 +104,7 @@ $APPLICATION->IncludeFile(
         <div id="content">
 
             <div id="sidebar">
-                <?#set in ./template/header.php ?>
-                123
-                <?$APPLICATION->ShowViewContent("header");?>
-                234
+
 
 
             </div>
