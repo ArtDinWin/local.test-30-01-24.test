@@ -105,6 +105,12 @@ $APPLICATION->IncludeFile(
 
             <div id="sidebar">
                 <?
+// свои классы ВЫВОД класса
+$obj = new MyClass();
+$obj->doSomething(); // Выведет "Doing something!";
+?>
+
+                <?
                   // без echo своя отложенная функция
                 myShowTitle();
                 ?>

@@ -13,10 +13,10 @@ if (DEMO && ($SiteExpireDate < time())) {
 }
 
 
-// spl_autoload_register(function ($className) {
-//     $classFile = $_SERVER['DOCUMENT_ROOT'] . '/local/classes/' . $className . '.php';
-//     if (file_exists($classFile)) {
-//         require_once($classFile);
-//     }
-// });
+spl_autoload_register(function ($className) {
+    $classFile = $_SERVER['DOCUMENT_ROOT'] . '/local/classes/' . $className . '.php';
+    if (file_exists($classFile)) {
+        require_once($classFile);
+    }
+});
 ?>
